@@ -1,2 +1,3 @@
-This is actually markdown
-asdfasdf hahaha
+# PlayDogPlay website
+
+This is just a template for the README.md file
