@@ -1,9 +1,6 @@
 # PlayDogPlay website
 
-This is just a template for the README.md file
+Future description of project will go here
 
-This is a test list:
-
- - [x] test one
- - [ ] test two
- - [ ] test three
+## Contributors
+* Michael Leonard
