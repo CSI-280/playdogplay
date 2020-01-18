@@ -4,3 +4,4 @@ Future description of project will go here
 
 ## Contributors
 * Michael Leonard
+* Alexander Waters
