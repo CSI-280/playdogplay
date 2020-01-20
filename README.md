@@ -1,9 +1,8 @@
 # PlayDogPlay website
 
-This is just a template for the README.md file
+A website for pets,
+see the current page [here](https://csi-280.github.io/playdogplay/).
 
-This is a test list:
-
- - [x] test one
- - [ ] test two
- - [ ] test three
+## Contributors
+* Michael Leonard
+* Alexander Waters
