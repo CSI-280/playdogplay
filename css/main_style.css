@@ -1,27 +1,26 @@
+/*
+  This is the CSS for all webpages
+
+  TODO: change 'px' to something better for scaling/mobile
+  TODO: add @media to rearange the css grid
+*/
+
 :root
 {
   --lr_padding: 20%;    /* left-right padding */
 
-  --color_light: #efeef1;   /* temporary (stolen from petfinder) */
+  --color_light: #efeef1;    /* temporary (stolen from petfinder) */
   --color_scheme1: #6504b5;  /* temporary (stolen from petfinder) */
   --color_scheme1_light: #7514c5;
   --color_scheme1_lighter: #a544f5;
+  --color_button: #20ccf8;  /* temporary (stolen from petfinder) */
+  --color_font: #333;
 }
 
 html, body
 {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-}
-
-.grid-container
-{
-  display: grid;
-  grid-template-areas:
-    'header header header header header'
-    'navbar1 navbar2 navbar3 navbar4 navbar5'
-    'left middle middle middle right'
-    'footer footer footer footer footer';
 }
 
 .header
@@ -96,7 +95,43 @@ html, body
 
 .footer {
   grid-area: footer;
-  background-color: #ddd;
+  background-color: var(--color_scheme1);
   padding: 100px;
   text-align: center;
+}
+
+
+
+
+button  /* TODO: add a class to buttons using js for button types */
+{
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  width: 15em;   /* rm: relative to font size */
+  height: 3.5em;
+  margin: 2em 2em;    /* 2x (2em) margin on left/right and on top/bottom */
+  border: 0.2em solid var(--color_button);
+  border-radius: 3em;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover
+{
+  background-color: var(--color_button);
+  color: white;
+  cursor: pointer;
+}
+
+button:focus  /* remove blue box when pressing */
+{
+  outline: none;
+}
+
+p
+{
+  font-size: 18px;
+  color: var(--color_font);
 }

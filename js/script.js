@@ -17,7 +17,7 @@ pf.animalData.types()
 
 
 
-  
+
 //react testing
 'use strict';
 
@@ -31,7 +31,13 @@ class LikeButton extends React.Component {
 
   render() {
     if (this.state.liked) {
-      return 'You liked this.';
+      //return 'You liked this.';
+      return e(
+        'p',
+        {},
+        'You liked this!'
+      );
+
     }
 
     return e(
