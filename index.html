@@ -6,8 +6,17 @@
 
   <title>PlayDogPlay</title>
   <meta name="description" content="PlayDogPlay Website">
-  <meta name="author" content="Michael/YourNamesHere">  <!-- Include your name here if you worked on the html -->
+  <meta name="author" content="Michael/Alexander Waters/YourNamesHere">  <!-- Include your name here if you worked on the html -->
+  
+  <!-- React Scripts-->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  
+  <!-- PET API-->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/@petfinder/petfinder-js/dist/petfinder.min.js"></script>
 
+  <!--<script import {pf} from '../path/to/pf.js';></script> not sure how to use-->
   <link rel="stylesheet" href="css/main_style.css">
 
 </head>
@@ -16,6 +25,12 @@
   <h1>A bolilderplate for the PlayDogPlay website</h1>
   <p>More content will be added in the future<p>
   <br>
-  <script src="js/script.js"></script>  <!-- Leave at bottom of body for loading issues -->
+
+  <div id="like_button_container"></div>
+  <script src="like_button.js"></script>
+
+  
+  
+  <script src="js/script.js"></script> <!-- Leave at bottom of body for loading issues -->
 </body>
 </html>
