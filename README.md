@@ -8,4 +8,5 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
 * Alexander Waters
 * Noah Patterson-LaBaw
 * Kai Wilens
+* Hayden Stegman
 
