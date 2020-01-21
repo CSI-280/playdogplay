@@ -7,3 +7,4 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
 * Michael Leonard
 * Alexander Waters
 * Noah Patterson-LaBaw
+* Kai Wilens
