@@ -1,5 +1,5 @@
 # PlayDogPlay website
----
+
 ## Description
 
 A website for pets,
@@ -9,8 +9,8 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
 ### To download the git repository using git
 
 1. Make sure you have git installed (https://git-scm.com/downloads)
-2. Navigate to a directory for the files using command line
-3. Use the command
+2. Using command line, navigate to the directory that you want to download into
+3. Run the command
 ```bash
 $ git clone https://github.com/CSI-280/playdogplay.git
 ```
