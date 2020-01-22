@@ -35,6 +35,25 @@
     'footer footer footer footer footer';
 }
 
+@media only screen and (max-width: 600px)
+{
+  .grid-container
+  {
+    grid-template-areas:
+      'header header header header header'
+      'navbar1 navbar1 navbar1 navbar1 navbar1'
+      'navbar2 navbar2 navbar2 navbar2 navbar2'
+      'navbar3 navbar3 navbar3 navbar3 navbar3'
+      'navbar4 navbar4 navbar4 navbar4 navbar4'
+      'navbar5 navbar5 navbar5 navbar5 navbar5'
+      'left left left left left'
+      'middle middle middle middle middle'
+      'right right right right right'
+      'footer footer footer footer footer';
+  }
+}
+
+
 
 
 .middle
