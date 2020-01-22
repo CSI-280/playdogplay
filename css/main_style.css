@@ -7,6 +7,7 @@
 
 :root
 {
+  /* TODO: change this variable name to lr_margin */
   --lr_padding: 20%;    /* left-right padding */
 
   --color_light: #efeef1;    /* temporary (stolen from petfinder) */
@@ -36,11 +37,11 @@ html, body
   text-align: center;
 }
 
-.navbar1 { grid-area: navbar1 }
-.navbar2 { grid-area: navbar2 }
-.navbar3 { grid-area: navbar3 }
-.navbar4 { grid-area: navbar4 }
-.navbar5 { grid-area: navbar5 }
+#navbar1 { grid-area: navbar1 }
+#navbar2 { grid-area: navbar2 }
+#navbar3 { grid-area: navbar3 }
+#navbar4 { grid-area: navbar4 }
+#navbar5 { grid-area: navbar5 }
 
 .navbar
 {
@@ -66,8 +67,7 @@ html, body
 
 .left, .right
 {
-  margin-left: var(--lr_padding);
-  margin-right: var(--lr_padding);
+  margin: 0px var(--lr_padding);
 }
 
 .left
@@ -99,7 +99,6 @@ html, body
   padding: 100px;
   text-align: center;
 }
-
 
 
 
