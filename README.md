@@ -17,7 +17,7 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
 
 ### To download the git repository and run it 
 
-1. install node.js (https://nodejs.org/en/)(LTS Perferably)
+1. install node.js (https://nodejs.org/en/) (LTS Perferably)
     (this will take a few minuets)
 
 2. in a terminal run the following command in a direcotry where you want the project to run from
@@ -28,7 +28,8 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
 3. download the repository @ https://github.com/CSI-280/playdogplay as a zip 
     (temporraly here @ https://github.com/CSI-280/playdogplay/tree/react)
 
-4. move the files from the downloads into the corrisponding folders that you created earlier in step 2
+4. move the files from the downloads into the corrisponding folders that you created earlier in step 2 
+    and replace the extsing ones
 
 5. in a terminal navigate to the directory you used for step 2
 
@@ -37,7 +38,7 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
 direcoty-$ npm start
 ```
 
-## Youre all set!
+### Youre all set!
 
 
 ## Contributors
