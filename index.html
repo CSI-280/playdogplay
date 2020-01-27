@@ -7,6 +7,7 @@
   <title>PlayDogPlay</title>
   <meta name="description" content="PlayDogPlay Website">
   <meta name="author" content="Michael/Alexander Waters/YourNamesHere">  <!-- Include your name here if you worked on the html -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- React Scripts-->
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
@@ -17,7 +18,10 @@
   <script src="https://unpkg.com/@petfinder/petfinder-js/dist/petfinder.min.js"></script>
 
   <!--<script import {pf} from '../path/to/pf.js';></script> not sure how to use-->
+
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="css/main_style.css">
+  <link rel="stylesheet" href="css/index.css">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -30,17 +34,15 @@
     <div class="header">
       <h1>PlayDogPlay</h1>
     </div>
-    <div class="navbar">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Find a pet</a></li>
-      </ul>
-    </div>
+    <a href="#" class="navbar" id="navbar1">Home</a>
+    <a href="#" class="navbar" id="navbar2">Find a pet</a>
+    <a href="#" class="navbar" id="navbar3">About</a>
+    <a href="#" class="navbar" id="navbar4">Learn more</a>
+    <a href="#" class="navbar" id="navbar5">Contact</a>
     <div class="left">
     </div>
     <div class="middle">
-        <div id="like_button_container"></div>
+        <div class="button" id="like_button_container"></div>
         <script src="like_button.js"></script>
     </div>
     <div class="right">

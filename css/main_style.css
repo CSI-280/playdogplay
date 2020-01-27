@@ -1,26 +1,27 @@
+/*
+  This is the CSS for all webpages
+
+  TODO: change 'px' to something better for scaling/mobile
+  TODO: add @media to rearange the css grid
+*/
+
 :root
 {
+  /* TODO: change this variable name to lr_margin */
   --lr_padding: 20%;    /* left-right padding */
 
-  --color_light: #efeef1;   /* temporary (stolen from petfinder) */
+  --color_light: #efeef1;    /* temporary (stolen from petfinder) */
   --color_scheme1: #6504b5;  /* temporary (stolen from petfinder) */
+  --color_scheme1_light: #7514c5;
+  --color_scheme1_lighter: #a544f5;
+  --color_button: #20ccf8;  /* temporary (stolen from petfinder) */
+  --color_font: #333;
 }
 
 html, body
 {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-}
-
-.grid-container
-{
-  display: grid;
-  grid-template-areas:
-    'header header header header header'
-    'navbar navbar navbar navbar navbar'
-    'left middle middle middle right'
-    'footer footer footer footer footer';
-  grid-gap: 20px;
 }
 
 .header
@@ -36,39 +37,37 @@ html, body
   text-align: center;
 }
 
+#navbar1 { grid-area: navbar1 }
+#navbar2 { grid-area: navbar2 }
+#navbar3 { grid-area: navbar3 }
+#navbar4 { grid-area: navbar4 }
+#navbar5 { grid-area: navbar5 }
+
 .navbar
 {
-  grid-area: navbar;
   background-color: var(--color_scheme1);
+  padding: 30px 50px;
   text-transform: uppercase;
-  height: 100px;
-}
-
-.navbar li
-{
-  display: inline;
-}
-
-.navbar a
-{
-  height: inherit;
-  font-size: 20px;
-  padding: 0px 70px;
-  color: var(--color_light);
   text-decoration: none;
-  transition: 0.25s;
+  text-align: center;
+  font-size: 20px;
+  color: var(--color_light);
+  border: 5px solid transparent; /* this is here so the element doesn't
+   move when :hover and border: 5px solid is triggered */
+  transition: 0.5s;
 }
 
-.navbar a:hover
+.navbar:hover
 {
   color: #fff;
-  transition: 0.25s;
+  border: 5px solid var(--color_scheme1_lighter);
+  background-color: var(--color_scheme1_light);;
+  transition: 0.5s;
 }
 
 .left, .right
 {
-  margin-left: var(--lr_padding);
-  margin-right: var(--lr_padding);
+  margin: 0px var(--lr_padding);
 }
 
 .left
@@ -88,15 +87,50 @@ html, body
 
 .left, .middle, .right
 {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 75px;
+  margin-bottom: 75px;
   height: 500px;
   background-color: #eee;
 }
 
 .footer {
   grid-area: footer;
-  background-color: #ddd;
+  background-color: var(--color_scheme1);
   padding: 100px;
   text-align: center;
+}
+
+
+
+button  /* TODO: add a class to buttons using js for button types */
+{
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  width: 15em;   /* rm: relative to font size */
+  height: 3.5em;
+  margin: 2em 2em;    /* 2x (2em) margin on left/right and on top/bottom */
+  border: 0.2em solid var(--color_button);
+  border-radius: 3em;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover
+{
+  background-color: var(--color_button);
+  color: white;
+  cursor: pointer;
+}
+
+button:focus  /* remove blue box when pressing */
+{
+  outline: none;
+}
+
+p
+{
+  font-size: 18px;
+  color: var(--color_font);
 }
