@@ -33,7 +33,7 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
 
 6. run the command
 ```bash 
-direcoty-$ npm start
+$ npm start
 ```
 
 ### Youre all set!
