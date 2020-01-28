@@ -22,7 +22,7 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
 
 2. in a terminal, run the following command in a direcotry where you want the project to run from.
 ```bash
-    $ mpx create-react-app <name-of-file>
+    $ npx create-react-app <name-of-file>
 ```
 
 3. download the repository @ https://github.com/CSI-280/playdogplay as a zip (temporraly here @ https://github.com/CSI-280/playdogplay/tree/react)

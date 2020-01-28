@@ -1,5 +1,7 @@
 import React from 'react';
 import './Grid.css';
+import LikeButton from './LikeButton.js';
+
 
 function Grid() {
     return (
@@ -17,10 +19,9 @@ function Grid() {
         
 
         </div>
-            <div class="middle">
-                <div class="button" id="like_button_container"></div>
-                <script src="like_button.js"></script>
-            </div>
+        <div class="middle">
+          <LikeButton/>
+        </div>
         <div class="right">
         
         

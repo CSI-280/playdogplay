@@ -100,34 +100,6 @@ html, body
 }
 
 
-
-button  /* TODO: add a class to buttons using js for button types */
-{
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  width: 15em;   /* rm: relative to font size */
-  height: 3.5em;
-  margin: 2em 2em;    /* 2x (2em) margin on left/right and on top/bottom */
-  border: 0.2em solid var(--color_button);
-  border-radius: 3em;
-  text-align: center;
-  text-decoration: none;
-}
-
-button:hover
-{
-  background-color: var(--color_button);
-  color: white;
-  cursor: pointer;
-}
-
-button:focus  /* remove blue box when pressing */
-{
-  outline: none;
-}
-
 p
 {
   font-size: 18px;
