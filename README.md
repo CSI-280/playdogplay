@@ -31,7 +31,12 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
 
 5. in a terminal, navigate to the directory you created in step 2.
 
-6. run the command
+6. run the command 
+```bash 
+$npm install --save @petfinder/petfinder-js
+```
+
+7. run the command
 ```bash 
 $ npm start
 ```
