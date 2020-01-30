@@ -22,3 +22,12 @@ html, body
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
+
+
+.header h1
+{
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+  color: var(--color_dark);
+  text-align: center;
+}

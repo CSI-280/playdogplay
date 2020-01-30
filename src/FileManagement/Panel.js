@@ -2,11 +2,11 @@ import React from 'react';
 import PanelViewer from './PanelViewer';
 
 //importing all pages
-import Home from './panels/Home';
-import FindPet from './panels/FindPet';
-import About from './panels/About';
-import LearnMore from './panels/LearnMore';
-import Contact from './panels/Contact';
+import Home from '../Panels/Home.js';
+import FindPet from '../Panels/FindPet.js';
+import About from '../Panels/About.js';
+import LearnMore from '../Panels/LearnMore.js';
+import Contact from '../Panels/Contact.js';
 
 import './Panel.css'
 
@@ -18,14 +18,14 @@ const panels = {"Home":<Home/>, "Find a Pet":<FindPet/>, "About":<About/>, "Lear
 function Panel() {
     return (
       <>
-      
+
         <div className="header">
           <h1>PlayDogPlay</h1>
         </div>
         
-        <div className="grid-container">
-          <PanelViewer panels={panels}/>
-        </div>
+        
+        <PanelViewer panels={panels}/>
+        
       
       
       </>

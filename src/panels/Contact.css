@@ -1,0 +1,16 @@
+/*
+.middle
+{
+  grid-area: main;
+}
+
+
+
+.grid-container
+{
+    all:unset;
+    display: grid;
+    grid-template-areas:
+        'main main main main main'
+        'footer footer footer footer footer';
+}*/

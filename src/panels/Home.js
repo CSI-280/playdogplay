@@ -7,6 +7,7 @@ import './Home.css'
 //calls comopents from other files to load into html
 const Home = () => (
         <>
+        <div className="grid-container">
             <div className="left">
                 <DogListing/>
             </div>
@@ -22,6 +23,7 @@ const Home = () => (
             <div className="footer">
             
             </div>
+        </div>
         </>
     );
 
