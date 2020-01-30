@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Grid from  './Components/Grid'
+import Panel from  './Panel.js'
 
-ReactDOM.render(<Grid />, document.getElementById('root'));
+
+//makes go
+ReactDOM.render(<Panel />, document.getElementById('root'));
 
