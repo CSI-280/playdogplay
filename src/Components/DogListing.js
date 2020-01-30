@@ -1,39 +1,37 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { render } from '@testing-library/react';
+import {Client} from '@petfinder/petfinder-js';
 
-export default function DogListing() {
 
-    var petfinder = require("@petfinder/petfinder-js");
-    const keyVal = "HB4E0LPBodtgXJlBVOYvZSDaxgGSCA7Li7Eq6tqb6uVDRfzAp4";
-    const SecretVal = "ACCq1YmJ2XzZxT6WrvbSU9voepnbCllw0NmSF363";
-    const pf = new petfinder.Client({apiKey: keyVal, secret: SecretVal});
 
+const keyVal = "HB4E0LPBodtgXJlBVOYvZSDaxgGSCA7Li7Eq6tqb6uVDRfzAp4";
+const SecretVal = "ACCq1YmJ2XzZxT6WrvbSU9voepnbCllw0NmSF363";
+
+const pf = new Client({apiKey: keyVal, secret: SecretVal});
+
+const DogListing = () =>  {
+  
+    const [petTypes, setPetTypes] = useState([]);
     
     
-
-
-    var types = []
-    function onmouseOver(){
+    useEffect(() => {
       pf.animalData.types()
       .then(resp => {
-        for (var i of resp.data.types){
-          types.push(i);
-        }
+        setPetTypes(resp.data.types);
       });
-    }
-
-
-
+    }, []);
+   
 
     return (
       <div>
         <ol>
           
-          {types.map(type => <li>{type}</li>)}
-            
-          
+          {petTypes.map(type => <li>{type.name}</li>)}
+
           
         </ol>
       </div>
     );
 }
+
+export default DogListing;

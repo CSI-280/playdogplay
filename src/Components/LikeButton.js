@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './LikeButton.css';
 
-export default function LikeButton() {
+function LikeButton() {
     const [count, setCount] = useState(0);
 
     return (
@@ -13,3 +13,8 @@ export default function LikeButton() {
       </div>
     );
 }
+
+
+
+
+export default LikeButton;
