@@ -17,7 +17,7 @@ const PanelViewer = ({panels}) => {
         <div id="navbar">
             <div className="menuBar"><img src={menuBar} alt="menu" id="menuBar"></img></div>
             <ul id="menu">
-                {keys.map(key => <li className="menuOption"><a href="#" key={key} onClick={handleClick (key)}  className="navbarElement" id={"navbar"+(keys.indexOf(key)+1)}>{key}</a></li>)}
+                {keys.map(key => <a className="menuOption" href="#" key={key} onClick={handleClick (key)}><p className="navbarElement" id={"navbar"+(keys.indexOf(key)+1)}>{key}</p></a>)}
             </ul>
             
         </div>

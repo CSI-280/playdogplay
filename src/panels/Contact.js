@@ -1,13 +1,27 @@
 import React from 'react';
-import './Contact.css'
+import styles from './Contact.module.css'
 import LikeButton from '../Components/LikeButton.js'
 
 const Contact = () => (
     <>
-         <div className="middle">
+        <div className={styles.grid_container}>
+            <div className={styles.left}>
+                
+            </div>
+            
+            <div className={styles.middle}>
                 <LikeButton/> 
+            </div>
+            
+            <div className={styles.right}>
+            
+            </div>
+
+            <div className={styles.footer}>
+            
+            </div>
         </div>
-        <div className="footer">test2</div>
+    
     </>
     );
 export default Contact;
