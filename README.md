@@ -25,15 +25,15 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
     $ npx create-react-app <name-of-file>
 ```
 
-3. download the repository @ https://github.com/CSI-280/playdogplay as a zip (temporraly here @ https://github.com/CSI-280/playdogplay/tree/react)
+3. download the repository @ https://github.com/CSI-280/playdogplay as a zip
 
-4. Replace the public folder, src folder, and jsons with ones downloaded from the repository.
+4. Replace the public folder, src folder, and jsons with ones created in step 2.
 
 5. in a terminal, navigate to the directory you created in step 2.
 
 6. run the command 
 ```bash 
-$npm install --save @petfinder/petfinder-js
+$ npm install --save @petfinder/petfinder-js
 ```
 
 7. run the command
@@ -43,6 +43,14 @@ $ npm start
 
 ### Youre all set!
 
+
+## How to use git
+
+In the direcotry that you created for the project, run the commands:
+```bash
+$ git init
+$ git add remote origin https://github.com/CSI-280/playdogplay.git
+```
 
 ## Contributors
 * Michael Leonard
