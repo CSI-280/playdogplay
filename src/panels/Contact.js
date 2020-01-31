@@ -20,6 +20,7 @@ const Contact = () => (
             <div className={styles.footer}>
             
             </div>
+            
         </div>
     
     </>

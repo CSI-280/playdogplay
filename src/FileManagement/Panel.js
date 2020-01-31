@@ -2,11 +2,11 @@ import React from 'react';
 import PanelViewer from './PanelViewer';
 
 //importing all pages
-import Home from '../Panels/Home.js';
-import FindPet from '../Panels/FindPet.js';
-import About from '../Panels/About.js';
-import LearnMore from '../Panels/LearnMore.js';
-import Contact from '../Panels/Contact.js';
+import Home from '../panels/Home.js';
+import FindPet from '../panels/FindPet.js';
+import About from '../panels/About.js';
+import LearnMore from '../panels/LearnMore.js';
+import Contact from '../panels/Contact.js';
 
 import './Panel.css'
 
