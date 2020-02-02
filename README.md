@@ -2,7 +2,8 @@
 
 ## Description
 
-A website for pets,
+A website for pets, the three major features of this site include(subjec to change): searching for a breed of pet,
+viewing the library of all pets, and a guessing game.
 see the current page [here](https://csi-280.github.io/playdogplay/).
 
 ## How to Run the program if starting with nothing
@@ -58,3 +59,4 @@ $ git add remote origin https://github.com/CSI-280/playdogplay.git
 * Noah Patterson-LaBaw
 * Kai Wilens
 * Hayden Stegman
+* Calvin Rose
