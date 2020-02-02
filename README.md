@@ -2,7 +2,7 @@
 
 ## Description
 
-A website for pets, the three major features of this site include(subjec to change): searching for a breed of pet,
+A website for pets, the three major features of this site include(subject to change): searching for a breed of pet,
 viewing the library of all pets, and a guessing game.
 see the current page [here](https://csi-280.github.io/playdogplay/).
 
