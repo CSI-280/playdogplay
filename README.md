@@ -16,7 +16,33 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
 3. Extract the file using a zip extractor (like winzip, 7-zip, etc.)
 
 
-### To download the git repository and run it 
+### To download the git repository and run it using git
+
+1. install node.js (https://nodejs.org/en/) (LTS Perferably)
+    (this will take a few minuets)
+
+2. in a terminal, run the following command in a direcotry where you want the project to run from.
+```bash
+    $ npx create-react-app <name-of-file>
+```
+
+3. Run the following commands
+```bash
+    $ cd <name-of-file>
+    $ git init
+    $ git remote add origin https://github.com/CSI-280/playdogplay.git
+    $ git branch --set-upstream-to=origin/master master
+    $ git pull origin master --allow-unrelated-histories -X theirs
+    $ npm install --save @petfinder/petfinder-js
+```
+
+5. npm start
+
+
+### Youre all set!
+
+
+### To download the git repository and run it manually
 
 1. install node.js (https://nodejs.org/en/) (LTS Perferably)
     (this will take a few minuets)
@@ -42,7 +68,10 @@ $ npm install --save @petfinder/petfinder-js
 $ npm start
 ```
 
-### Youre all set!
+
+
+
+
 
 
 ## How to use git
