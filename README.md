@@ -42,8 +42,6 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
 ```
 
 
-### Youre all set!
-
 
 ### To download the git repository and run it manually
 
@@ -66,12 +64,14 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
 $ npm install --save @petfinder/petfinder-js
 ```
 
-7. run the command
+7. to run
 ```bash 
 $ npm start
 ```
 
 
+
+### Youre all set!
 
 
 
