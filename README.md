@@ -32,7 +32,7 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
     $ git init
     $ git remote add origin https://github.com/CSI-280/playdogplay.git
     $ git pull origin master --allow-unrelated-histories -X theirs
-	$ git branch --set-upstream-to=origin/master master
+    $ git branch --set-upstream-to=origin/master master
     $ npm install --save @petfinder/petfinder-js
 ```
 
