@@ -50,7 +50,7 @@
   grid-template-areas:
     'header header header header header'
     'navbar1 navbar2 navbar3 navbar4 navbar5'
-    'left middle middle middle right'
+    'middle middle middle middle middle'
     'footer footer footer footer footer';
   grid-template-columns: 2fr 1fr 1fr 1fr 2fr; /* fr = fraction */
 }
@@ -81,6 +81,7 @@
 .middle
 {
   text-align: center; /* temporary */
+  margin: 0px 100px;
 }
 
 .left, .right

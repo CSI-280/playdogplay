@@ -5,7 +5,7 @@
 {
   grid-area: left;
 }
-  
+
 .middle
 {
   grid-area: middle;
@@ -17,7 +17,7 @@
   grid-area: right;
 }
 
-.footer 
+.footer
 {
   grid-area: footer;
 }
@@ -48,8 +48,11 @@
       }
   */
   grid-template-areas:
+    'header header header header header'
+    'navbar1 navbar2 navbar3 navbar4 navbar5'
     'left middle middle middle right'
     'footer footer footer footer footer';
+  grid-template-columns: 2fr 1fr 1fr 1fr 2fr; /* fr = fraction */
 }
 
 @media only screen and (max-width: 600px)
@@ -57,6 +60,12 @@
   .grid_container
   {
     grid-template-areas:
+      'header header header header header'
+      'navbar1 navbar1 navbar1 navbar1 navbar1'
+      'navbar2 navbar2 navbar2 navbar2 navbar2'
+      'navbar3 navbar3 navbar3 navbar3 navbar3'
+      'navbar4 navbar4 navbar4 navbar4 navbar4'
+      'navbar5 navbar5 navbar5 navbar5 navbar5'
       'left left left left left'
       'middle middle middle middle middle'
       'right right right right right'
