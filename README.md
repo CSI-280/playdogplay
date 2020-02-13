@@ -31,12 +31,14 @@ see the current page [here](https://csi-280.github.io/playdogplay/).
     $ cd <name-of-file>
     $ git init
     $ git remote add origin https://github.com/CSI-280/playdogplay.git
-    $ git branch --set-upstream-to=origin/master master
     $ git pull origin master --allow-unrelated-histories -X theirs
+	$ git branch --set-upstream-to=origin/master master
     $ npm install --save @petfinder/petfinder-js
 ```
 
-4.to Run
+4. make sure to merge master onto a new branch before pushing
+
+5. to Run
 ```bash
 	npm start
 ```
