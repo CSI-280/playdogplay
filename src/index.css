@@ -9,11 +9,8 @@
   /* TODO: change this variable name to lr_margin */
   --lr_padding: 20%;    /* left-right padding */
 
-  --color_light: #efeef1;    /* temporary (stolen from petfinder) */
-  --color_scheme1: #6504b5;  /* temporary (stolen from petfinder) */
-  --color_scheme1_light: #7514c5;
-  --color_scheme1_lighter: #a544f5;
-  --color_button: #20ccf8;  /* temporary (stolen from petfinder) */
+  --color_scheme1: #000;
+  --color_button: #999;      /* #20ccf8; */
   --color_font: #333;
 }
 
@@ -21,7 +18,9 @@ html, body
 {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
+
 
 
 .header h1

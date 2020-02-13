@@ -10,7 +10,7 @@ import Contact from '../panels/Contact.js';
 
 import './Panel.css'
 
-const panels = {"Home":<Home/>, "Find a Pet":<FindPet/>, "About":<About/>, "LearnMore":<LearnMore/>, "Contact":<Contact/>};
+const panels = {"Home":<Home/>, "Find a Pet":<FindPet/>, "About":<About/>, "Learn More":<LearnMore/>, "Contact":<Contact/>};
 
 
 //panel alllows us to change what page we are on by changing the html on the page, not navigating to a new page
@@ -22,14 +22,14 @@ function Panel() {
         <div className="header">
           <h1>PlayDogPlay</h1>
         </div>
-        
-        
+
+
         <PanelViewer panels={panels}/>
-        
-      
-      
+
+
+
       </>
     );
   }
-  
+
   export default Panel;
