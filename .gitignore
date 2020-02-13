@@ -29,3 +29,8 @@ src/logo.svg
 src/App.test.js
 src/App.js
 src/App.css
+public/favicon.ico
+public/logo192.png
+public/logo512.png
+public/manifest.json
+public/robots.txt
