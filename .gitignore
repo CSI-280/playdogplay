@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#default react stuff
+src/setupTests.js
+src/serviceWorker.js
+src/logo.svg 
+src/App.test.js
+src/App.js
+src/App.css
