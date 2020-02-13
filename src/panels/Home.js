@@ -15,7 +15,9 @@ const Home = () => (
             </div>
             
             <div className={styles.middle}>
-                <LikeButton/> 
+                <h1>Welcome To PlayDogPlay</h1>
+				<h1>...</h1>
+				<LikeButton/> 
             </div>
             
             <div className={styles.right}>
