@@ -1,20 +1,11 @@
 
 /*-------------------GRID HANDELING ------------*/
 
-.left
-{
-  grid-area: left;
-}
 
 .middle
 {
   grid-area: middle;
   background-color: tomato;
-}
-
-.right
-{
-  grid-area: right;
 }
 
 .footer
@@ -66,9 +57,7 @@
       'navbar3 navbar3 navbar3 navbar3 navbar3'
       'navbar4 navbar4 navbar4 navbar4 navbar4'
       'navbar5 navbar5 navbar5 navbar5 navbar5'
-      'left left left left left'
       'middle middle middle middle middle'
-      'right right right right right'
       'footer footer footer footer footer';
   }
 }
@@ -81,21 +70,13 @@
 .middle
 {
   text-align: center; /* temporary */
-  margin: 0px 100px;
-}
-
-.left, .right
-{
-  margin: 0px var(--lr_padding);
-}
-
-
-.left, .middle, .right
-{
   margin-top: 75px;
   margin-bottom: 75px;
-  height: 500px;
-  background-color: #eee;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 400px;
+  background-color: white;
+  border-radius: 2em;
 }
 
 .footer {

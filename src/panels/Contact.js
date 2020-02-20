@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Contact.module.css' // page layout
-import LikeButton from '../Components/LikeButton.js'
 
 const Contact = () => (
     <>
@@ -10,7 +9,7 @@ const Contact = () => (
             </div>
 
             <div className={styles.middle}>
-                <LikeButton/>
+                
             </div>
 
             <div className={styles.right}>

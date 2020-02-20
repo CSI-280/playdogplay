@@ -93,10 +93,12 @@
 {
   margin-top: 75px;
   margin-bottom: 75px;
-  margin: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
   height: 500px;
-  background-color: #eee;
-  padding:10px;
+  background-color: white;
+  border-radius: 2em;
+  padding: 40px;
 }
 
 .footer {

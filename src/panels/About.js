@@ -9,7 +9,7 @@ const About = () => (
             </div>
 
             <div className={styles.middle}>
-                
+
             </div>
 
             <div className={styles.right}>
