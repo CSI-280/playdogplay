@@ -1,0 +1,107 @@
+
+/*-------------------GRID HANDELING ------------*/
+
+.left
+{
+  grid-area: left;
+}
+
+.middle
+{
+  grid-area: middle;
+  background-color: tomato;
+}
+
+.right
+{
+  grid-area: right;
+}
+
+.footer
+{
+  grid-area: footer;
+}
+
+.grid_container
+{
+  display: grid;
+  /*
+    Header, navbar lines, and footer should stay the same between each page.
+    Left/middle/right represent the layout of the page, you can re-arrange
+    per page, or even add more by creating an element with a class in html,
+    and giving it grid-area: x in css.
+    For example:
+      === HTML ===
+      <div class='under_main'>
+      </div>
+      === CSS ===
+      grid-template-areas:
+        'header header header header header'
+        'navbar1 navbar2 navbar3 navbar4 navbar5'
+        'left middle middle middle right'
+        'under under under under under'
+        'footer footer footer footer footer';
+      ...
+      .under_main
+      {
+        grid-area: under;
+      }
+  */
+  grid-template-areas:
+    'header header header header header'
+    'navbar1 navbar2 navbar3 navbar4 navbar5'
+    'left left left left left'
+    'middle middle middle middle middle'
+    'right right right right right'
+    'footer footer footer footer footer';
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* fr = fraction */
+}
+
+@media only screen and (max-width: 600px)
+{
+  .grid_container
+  {
+    grid-template-areas:
+      'header header header header header'
+      'navbar1 navbar1 navbar1 navbar1 navbar1'
+      'navbar2 navbar2 navbar2 navbar2 navbar2'
+      'navbar3 navbar3 navbar3 navbar3 navbar3'
+      'navbar4 navbar4 navbar4 navbar4 navbar4'
+      'navbar5 navbar5 navbar5 navbar5 navbar5'
+      'left left left left left'
+      'middle middle middle middle middle'
+      'right right right right right'
+      'footer footer footer footer footer';
+  }
+}
+
+
+/*-------------------PAGE STYLEING------------*/
+
+
+
+.middle
+{
+  text-align: center; /* temporary */
+}
+
+.left, .right
+{
+  margin: 0px var(--lr_padding);
+}
+
+
+.left, .middle, .right
+{
+  margin-top: 75px;
+  margin-bottom: 75px;
+  height: 500px;
+  background-color: #eee;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: var(--color_scheme1);
+  padding: 100px;
+  text-align: center;
+}

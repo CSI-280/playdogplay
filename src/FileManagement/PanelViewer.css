@@ -1,0 +1,98 @@
+#navbar
+{
+    min-height: 60px;
+}
+
+#menu
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menuOption:hover
+{
+  color: white;
+}
+
+.menuOption
+{
+    background-color: var(--color_scheme1);
+    border: 5px solid transparent; /* this is here so the element doesn't
+     move when :hover and border: 5px solid is triggered */
+    transition: 0.5s;
+    text-align: center;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: #ddd;
+    list-style: none;
+    width: 20%;
+}
+
+
+/* stolen from https://codepen.io/jstn/pen/zuDst */
+#menu > a:after {
+  background: none repeat scroll 0 0 transparent;
+  position: relative;
+  bottom: 10px;
+  left: 50%;
+  content: "";
+  display: block;
+  height: 5px;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#menu > a:hover:after {
+  width: 100%;
+  left: 0%;
+}
+/* ---------------------------------------- */
+
+.navbarElement
+{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+#menuBar
+{
+    padding: 10px;
+    padding-right: 50px;
+    height: 40px;
+    margin: auto;
+    display: none;
+}
+
+@media (max-width:1024px)
+{
+    #menuBar
+    {
+        display: block;
+    }
+    #navbar
+    {
+
+        /*position: absolute;*/
+        width: 100%;
+        /*height: calc(100vh - 500px);*/
+        /*top:200px;*/
+        transition: 0.5s;
+    }
+    #menu
+    {
+        display: block;
+    }
+
+    .menuOption{
+        display: none;
+        width: 100%;
+    }
+
+}
