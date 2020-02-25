@@ -8,9 +8,18 @@ button  /* TODO: add a class to buttons using js for button types */
   height: 3.5em;
   margin: 2em 2em;    /* 2x (2em) margin on left/right and on top/bottom */
   border: 0.2em solid var(--color_button);
-  border-radius: 3em;
   text-align: center;
   text-decoration: none;
+}
+
+button, #round
+{
+  border-radius: 3em;
+}
+
+button, #square
+{
+  border-radius: 0em;
 }
 
 button:hover

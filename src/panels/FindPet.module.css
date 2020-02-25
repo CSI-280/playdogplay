@@ -96,7 +96,8 @@
   margin-top: 75px;
   margin-bottom: 75px;
   height: 500px;
-  background-color: #eee;
+  background-color: white;
+  border-radius: 2em;
 }
 
 .footer {
